@@ -8,6 +8,8 @@ g <- ggplot(belle, aes(Datum)) +
     geom_line(aes(y = Gewicht , colour = "gewicht")) + 
     geom_line(aes(y = half, colour = "half")) +
     geom_line(aes(y = heel, colour = "heel")) + 
+    geom_line(aes(y = half_nw, colour = "half_nw")) +
+    geom_line(aes(y = heel_nw, colour = "heel_nw")) + 
     geom_hline(yintercept = 50, colour = "green") + 
     scale_x_date(date_breaks = "1 week", date_labels = "%b %d")
 
