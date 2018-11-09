@@ -1,6 +1,6 @@
 library("ggplot2")
 
-setwd("C:/Users/Bob/Documents/coursera/data/ibelle")
+setwd("C:/Users/Bob/Documents/coursera/data/belle")
 
 belle <- read.csv("belle.csv")
 
