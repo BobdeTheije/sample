@@ -1,5 +1,7 @@
 library("ggplot2")
 
+setwd("C:/Users/Bob/Documents/coursera/data/belle")
+
 belle <- read.csv("belle.csv")
 
 belle$Datum <- as.Date(belle$Datum, "%m/%d/%Y")
